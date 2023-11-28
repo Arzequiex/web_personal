@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline rgb(212, 13, 212);
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-style: oblique;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #000000;
+    background-color: #4ce44c;
+}
+
+button.delete {
+    margin-left: auto;
+    background-color: #dc3545;
+    font-style: initial;
+}
+
+button.mostrarCompletadas {
+    background-color: rgb(6, 187, 60);
+    
+}
+
+button.mostrarPendientes {
+    background-color: #d4b506;
+}
+
+button.mostrarTodas {
+    background-color: purple;
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(4, 104, 4);
+}
