@@ -1,0 +1,30 @@
+.App {
+  text-align: left;
+}
+
+body {
+  background-color: rgba(77, 61, 102, 0.938);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(6, 6, 99);
+  text-decoration: underline;
+}
+
+h2 {
+  margin: 20px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 17px;
+}
