@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title>Acerca de Mí</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a mi Web Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#formulario">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="acerca-de-mi">
+            <h2>Acerca de mí</h2>
+            <p>Mi nombre es Agustín y soy un principiante en el desarrollo web.</p>
+            <img src="mi foto.jpg" alt="mi foto aqui" width="200">
+        </div>
+
+        <div id="educacion">
+            <h2>Educación</h2>
+            <table border="1">
+                <tr>
+                    <th>Tipo</th>
+                    <th>Nombre</th>
+                    <th>Estado</th>
+                </tr>
+                <tr>
+                    <td>Primaria</td>
+                    <td>Colegio San José</td>
+                    <td>Finalizado</td>
+                </tr>
+                <tr>
+                    <td>Secundaria</td>
+                    <td>Instituto Técnico Industruial</td>
+                    <td>Finalizado</td>
+                </tr>
+                <tr>
+                    <td>Curso</td>
+                    <td>Introducción al desarrollo FrontEnd</td>
+                    <td>Cursando</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="habilidades">
+            <h2>Habilidades</h2>
+            <ol>
+                <li>Inglés intermedio</li>
+                <li>Manejo de computadora básico</li>
+            </ol>
+        </div>
+
+        <div id="contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li>Mail: <a href="mailto:aguzequiel44@gmail.com">aguzequiel44@gmail.com</a></li>
+                <li>Teléfono: 351 xxx-xxxx</li>
+            </ul>
+        </div>
+
+        <div id="formulario">
+            <h2>Contáctame</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" name="nombre" required>
+                <br><br>
+               
+                <label for="mail">Email:</label>
+                <input id="mail" type="email" name="mail" required>
+                <br><br>
+
+                <label for="asunto">Asunto:</label>
+                <input id="asunto" type="text" name="asunto" required>
+                <br><br>
+
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                <br><br>
+               
+               
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+
+    </section>
+    <footer>
+        Copyright (c) 2023. Todos los derechos reservados
+    </footer>
+</body>
+</html>

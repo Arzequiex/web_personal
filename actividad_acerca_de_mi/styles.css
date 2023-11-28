@@ -1,0 +1,125 @@
+header {
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+section {
+    margin: 30px;
+}
+
+#acerca-de-mi h2, #educacion h2, #habilidades h2, #contacto h2, #formulario h2 {
+    font-size: 23px;
+    color: rgb(105, 11, 148);
+}
+
+#contacto ul {
+    list-style-type: square;
+}
+
+table tr td {
+    font-family: serif;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+form {
+    text-align: left;
+    margin: auto;
+}
+
+label {
+    font-weight: bolder;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 5px;
+    margin: 0;
+    display:inline-block;
+    border: 1px solid rgb(192, 169, 153);
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(5, 92, 5);
+}
+
+input[type="reset"] {
+    background-color: rgb(202, 36, 7);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(119, 23, 5);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    header, section, footer {
+        padding: 10px;
+    }
+    h1, h2 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    header, #acerca-de-mi, #educacion, #habilidades, #contacto, #formulario {
+        padding: 5px;
+    }
+    h1, h2 {
+        font-size: 22px;
+    }
+    }
+
+    @media only screen and (min-width: 1025px) {
+
+        header, #acerca-de-mi, #educacion, #habilidades, #contacto, #formulario {
+            padding: 5px;
+        }
+        h1, h2 {
+            font-size: 28px;
+        }
+        }
+    
